@@ -1,0 +1,58 @@
+#div1{
+    /* height: 100px; */
+    width: 680px;
+    /* background-color: blue; */
+}
+table{
+   border: 2px solid  black;
+   border-collapse: collapse;
+}
+tr,td{
+   border: 2px solid  black;
+}
+/* function processData(input) {
+    
+} 
+
+process.stdin.resume();
+process.stdin.setEncoding("ascii");
+_input = "";
+process.stdin.on("data", function (input) {
+    _input += input;
+});
+
+process.stdin.on("end", function () {
+   processData(_input);
+}); */
+/* function processData(input) {
+   
+    var input = input.split('\n')
+    var n = Number(input[0])
+ //    console.log(typeof(n),n)
+ //    console.log(input)
+    input.shift()
+ //    console.log(input)
+    
+    var diagonal1 = []
+    var diagonal2 = []
+    for(var i = 0; i < input.length; i++){
+        input[i] = input[i].split(' ')
+     //    console.log(input[i])
+        diagonal1.push(Number(input[i][i]))
+        diagonal2.push(Number(input[i][input.length-1-i]))
+    }
+ //    console.log(diagonal1)
+ //    console.log(diagonal2)
+    console.log(Math.abs(diagonal1.reduce((a,b)=>a+b)-diagonal2.reduce((a,b)=>a+b)))
+ } 
+ 
+ process.stdin.resume();
+ process.stdin.setEncoding("ascii");
+ _input = "";
+ process.stdin.on("data", function (input) {
+     _input += input;
+ });
+ 
+ process.stdin.on("end", function () {
+    processData(_input);
+ });za= */
